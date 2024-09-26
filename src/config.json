@@ -1,0 +1,5 @@
+# Definicion las variables para credenciales
+CORRECT_USERNAME = "tomsmith"
+CORRECT_PASSWORD = "SuperSecretPassword!"
+INCORRECT_USERNAME = "incorrect_user"
+INCORRECT_PASSWORD = "incorrect_pass"
