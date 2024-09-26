@@ -1,10 +1,8 @@
-from threading import Thread
 import pytest
 from selenium import webdriver
 from src.pages.login_page import LoginPage
 from src.pages.landing_page import LandingPage
-from env_variables import EnvVariables
-import time
+
 
 @pytest.fixture
 def setup():
