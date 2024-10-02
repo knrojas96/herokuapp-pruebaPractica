@@ -3,9 +3,6 @@ from locust import HttpUser, TaskSet, task, between
 class UserBehavior(TaskSet):
 
     def on_start(self):
-        """
-        Este método se ejecuta antes de que inicien las pruebas de carga para realizar cualquier configuración necesaria.
-        """
         self.login_url = "/authenticate"
         self.secure_url = "/secure"
 
