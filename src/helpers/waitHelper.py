@@ -36,5 +36,5 @@ class WaitHelper:
         except TimeoutException:
             print(f"El elemento con localizador {locator} no está presente en el DOM dentro del tiempo especificado.")
             return None
-        
+
 
