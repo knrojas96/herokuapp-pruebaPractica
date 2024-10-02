@@ -4,6 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from env_variables import EnvVariables
+
+
 class UploadPage:
     def __init__(self, driver):
         self.driver = driver
@@ -20,3 +23,11 @@ class UploadPage:
         wait = WebDriverWait(self.driver, 10)
         message = wait.until(EC.presence_of_element_located(self.confirmation_message))
         return message.text
+
+#     print(f"Usuario correcto: {EnvVariables.get_username()}")
+# print(f"Contraseña correcta: {EnvVariables.get_password()}")
+# print(f"Usuario incorrecto: {EnvVariables.get_incorrect_username()}")
+# print(f"Contraseña incorrecta: {EnvVariables.get_incorrect_password()}")
+
+import os
+print(os.environ)

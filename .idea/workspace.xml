@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b81331-2d60-4be2-bb49-1a57db07b5b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TallerPython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locustfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/env_variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/waitHelper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/landing_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/upload_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/test_login.py" afterDir="false" />
-    </list>
+    <list default="true" id="c6b81331-2d60-4be2-bb49-1a57db07b5b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,26 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/kr-02",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login.test_landing_page_access_failure">
+  <component name="RunManager" selected="Python tests.Python tests for test_upload.test_file_upload">
     <configuration name="Python tests for test_login.test_landing_page_access_failure" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TallerPython" />
+      <module name="herokuapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -85,7 +65,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_login.test_landing_page_access_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TallerPython" />
+      <module name="herokuapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -98,8 +78,38 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_login.test_login_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="herokuapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_upload.test_file_upload" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="herokuapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_upload.test_file_upload&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_upload.test_file_upload" />
+        <item itemvalue="Python tests.Python tests for test_login.test_login_success" />
         <item itemvalue="Python tests.Python tests for test_login.test_landing_page_access_failure" />
         <item itemvalue="Python tests.Python tests for test_login.test_landing_page_access_success" />
       </list>

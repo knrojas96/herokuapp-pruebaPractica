@@ -5,7 +5,7 @@ from src.env_variables import EnvVariables
 class LoginPage:
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WaitHelper(driver)  # Instancia WaitHelper para manejar las esperas
+        self.wait = WaitHelper(driver)
         self.username_field = (By.ID, "username")
         self.password_field = (By.ID, "password")
         self.login_button = (By.CSS_SELECTOR, "button[type='submit']")
@@ -13,6 +13,7 @@ class LoginPage:
         self.logout_button = (By.CSS_SELECTOR, "a.button.secondary.radius")
 
     def enter_correct_credentials(self):
+
         username = EnvVariables.get_username()
         password = EnvVariables.get_password()
 
@@ -27,7 +28,7 @@ class LoginPage:
         password = EnvVariables.get_incorrect_password()
 
         username_input = self.wait.wait_for_visibility(self.username_field)
-        username_input.clear()  # Limpia el campo si es necesario
+        username_input.clear() 
         username_input.send_keys(username)
 
         password_input = self.wait.wait_for_visibility(self.password_field)
